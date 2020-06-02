@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    var grade : Int = 60
+    var grade : Int = 96
     var letterGrade : String = "F"
     if (grade >= 96){
         letterGrade = "A+"
@@ -15,19 +15,18 @@ fun main(args: Array<String>) {
 
     println("You received the grade " + letterGrade)
 
-    when(letterGrade){
+    var letterGrdExpression = when(letterGrade){
         "A+" -> {
-            println("You are doing fantastic!")
-            println("You deserve a medal!")
+            "You are doing fantastic!\nYou deserve a medal!"
         }
-        "A" -> println("Excellent!")
-        "B" -> println("Very Good!")
-        "C" -> println("Satisfactory")
-        "D" -> println("Needs Improvement")
+        "A" -> "Excellent!"
+        "B" -> "Very Good!"
+        "C" -> "Satisfactory"
+        "D" -> "Needs Improvement"
         else -> {
-            println("Significant Improvement required")
-            println("Get your act together.")
+            "Significant Improvement required.\nGet your act together."
         }
 
     }
+    println(letterGrdExpression)
 }
