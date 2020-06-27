@@ -4,3 +4,5 @@ src/main/kotlin/expressions.jar
 src/main/kotlin/Conditional.jar
 src/main/kotlin/RandomNumbers.jar
 src/main/kotlin/arraysList.jar
+src/main/kotlin/sum.jar
+src/main/kotlin/favBookTitles.jar
